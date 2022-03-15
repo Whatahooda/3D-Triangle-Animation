@@ -1,0 +1,13 @@
+=====================================================
+    _    _   _ ___ __  __    _  _____ ___ ___  _   _ 
+   / \  | \ | |_ _|  \/  |  / \|_   _|_ _/ _ \| \ | |
+  / _ \ |  \| || || |\/| | / _ \ | |  | | | | |  \| |
+ / ___ \| |\  || || |  | |/ ___ \| |  | | |_| | |\  |
+/_/   \_\_| \_|___|_|  |_/_/   \_\_| |___\___/|_| \_|
+                                                     
+=====================================================
+
+Assignment: Given code that does 3D rasterization and z-buffering of triangles
+operating over a vertex pool, make an animation that animates at least three
+triangles overlapping each other and have it so that sometimes one is in front
+and sometimes the other. Have the triangles have different colors.
