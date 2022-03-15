@@ -132,7 +132,6 @@ struct Triangle {
 		third.raster();
 		setbgcolor(0,0,0);
 		setcolor(255,255,255);
-		return;
 		for (int row = 0; row < rows; row++) {
 			for (int col = 0; col < cols; col++) {
 				//We will see if it is inside the triangle via crossproduct
@@ -195,7 +194,8 @@ int main() {
 	vertex_buffer.emplace_back(10,10,1,255,0,0);
 	vertex_buffer.emplace_back(10,20,1,0,255,0);
 	vertex_buffer.emplace_back(20,10,1,0,0,255);
-	Triangle tri1{0,1,2};
+	*/
+	//Triangle tri1{0,1,2};
 	vertex_buffer.emplace_back(5,35,2,255,0,0);
 	vertex_buffer.emplace_back(0,7,2,0,0,255);
 	vertex_buffer.emplace_back(20,20,2,0,255,0);
@@ -203,6 +203,7 @@ int main() {
 	clear_z_buffer();
 	tri1.raster();
 	tri2.raster();
+	/*
 	LineSeg line1{0,1};
 	LineSeg line2{1,2};
 	LineSeg line3{2,0};
